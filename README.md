@@ -4,9 +4,14 @@ One-command setup for interactive decision-making tools across Pi and OpenCode.
 
 ## What this repo holds
 
-- **Makefile** — `make setup` installs everything in order
+- **`AGENTS.md`** — Canonical global instructions for all coding agents
+- **`CLAUDE.md`** — Thin wrapper that imports AGENTS.md (Claude Code compatibility)
+- **`APPEND_SYSTEM.md`** — Pi-specific behavioral rules appended to system prompt
+- **`Makefile`** — `make setup` installs tooling
 - **`scripts/setup-pi.sh`** — Installs Pi extensions (`pi-ask-user`, `pi-plans`)
+- **`scripts/setup-global.sh`** — Symlink helper (see SETUP.md for instructions)
 - **`docs/opencode-question-tool.md`** — Manual steps for OpenCode's built-in `question` tool
+- **`SETUP.md`** — Manual instructions for linking global agent files to each harness
 
 ## Quick start
 
