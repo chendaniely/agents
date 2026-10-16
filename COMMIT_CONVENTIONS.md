@@ -2,6 +2,20 @@
 
 Every commit must follow these rules. Read this file before writing any commit.
 
+## References
+
+- **Semantic line breaks:** https://sembr.org/ — one idea per line in all plain text,
+  markdown, and commit messages. Wrap at 72 characters.
+- **Conventional Commits:** https://www.conventionalcommits.org/ — type, scope, and
+  description format.
+
+## Semantic line break rules
+
+- Each line contains one idea.
+- Wrap at 72 characters.
+- Use a blank line to separate logical blocks.
+- In commit messages, the subject line is one line. Each body sentence is one line.
+
 ## Format
 
 ```
